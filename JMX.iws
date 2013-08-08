@@ -7,7 +7,10 @@
     <file path="/Dummy.txt" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375858978784" ignored="false" />
     <file path="/ManageMBean.java" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375859080449" ignored="false" />
     <file path="/Manage.java" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375859139745" ignored="false" />
-    <file path="/JMXRunner.java" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375860928215" ignored="false" />
+    <file path="/JMXRunner.java" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375870977891" ignored="false" />
+    <file path="/JMXConsole.java" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375868903093" ignored="false" />
+    <file path="/fragment.java" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375866344193" ignored="false" />
+    <file path="/JMXClient.java" changelist="d940a2b2-ceca-4d52-99a1-3954f928a763" time="1375872554990" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,36 +74,62 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageMBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/ManageMBean.java">
+      <file leaf-file-name="JmxDemoMBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/JmxDemoMBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+            <state line="6" column="26" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/Manage.java">
+      <file leaf-file-name="JmxDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/JmxDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+            <state line="2" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JMXRunner.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JMXRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jmx/app/JMXRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="51" selection-start="987" selection-end="987" vertical-scroll-proportion="0.8291457">
+            <state line="24" column="36" selection-start="1082" selection-end="1158" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JMXClient.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmx/app/JMXClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.3225191">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1569#1582#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JmxMBeanServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/com/sun/jmx/mbeanserver/JmxMBeanServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="909" column="0" selection-start="40781" selection-end="40781" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#65415#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#53327#53657#0" expanded="false" />
+                <element signature="e#53642#53643#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -117,8 +146,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/jmxtest/ManageMBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jmx/app/JMXConsole.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmxtest/Manage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmx/app/JMXRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jmx/app/JMXClient.java" />
       </list>
     </option>
   </component>
@@ -286,7 +317,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Application.JMXRunner">
+  <component name="RunManager" selected="Application.JMXClient">
     <configuration default="false" name="JMXRunner" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -295,6 +326,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.jmx.app.JMXRunner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JMX" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JMXClient" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jmx.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.jmx.app.JMXClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -400,12 +453,14 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.JMXRunner" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JMXClient" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.JMXRunner" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.JMXClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JMXRunner" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -424,7 +479,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -444,8 +499,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.8639144" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13608563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -527,30 +582,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/ManageMBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/JmxDemoMBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+        <state line="6" column="26" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/Manage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmxtest/JmxDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/javax/management/ObjectName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="13" selection-start="8820" selection-end="8830" vertical-scroll-proportion="-1.6561514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/javax/management/QueryExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="17" selection-start="847" selection-end="847" vertical-scroll-proportion="0.33123028">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/javax/management/MBeanServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="392" column="92" selection-start="17428" selection-end="17428" vertical-scroll-proportion="0.04731861">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jmx/app/JMXRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="987" selection-end="987" vertical-scroll-proportion="0.8291457">
+        <state line="24" column="36" selection-start="1082" selection-end="1158" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/src.zip!/com/sun/jmx/mbeanserver/JmxMBeanServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="909" column="0" selection-start="40781" selection-end="40781" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#65415#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#53327#53657#0" expanded="false" />
+            <element signature="e#53642#53643#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmx/app/JMXClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.3225191">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1569#1582#0" expanded="true" />
           </folding>
         </state>
       </provider>
